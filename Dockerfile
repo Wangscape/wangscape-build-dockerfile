@@ -10,7 +10,8 @@ RUN apt update && \
         libboost-system-dev \
         libboost-filesystem-dev \
         libboost-program-options-dev \
-        libgtest-dev
+        libgtest-dev \
+        xvfb
 
 RUN cp /usr/share/SFML/cmake/Modules/FindSFML.cmake /usr/share/cmake-3.5/Modules/
 
