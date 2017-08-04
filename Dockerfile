@@ -11,6 +11,7 @@ RUN apt update && \
         libboost-filesystem-dev \
         libboost-program-options-dev \
         libgtest-dev \
+        libarmadillo-dev \
         xvfb
 
 RUN cp /usr/share/SFML/cmake/Modules/FindSFML.cmake /usr/share/cmake-3.5/Modules/
