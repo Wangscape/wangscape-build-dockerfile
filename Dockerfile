@@ -15,7 +15,7 @@ RUN apt update && \
         qt5-default \
         xvfb
 
-RUN cp /usr/share/SFML/cmake/Modules/FindSFML.cmake /usr/share/cmake-3.5/Modules/
+RUN cp /usr/share/SFML/cmake/Modules/FindSFML.cmake /usr/share/cmake*/Modules/
 
 RUN cd /usr/src/gtest && \
     cmake . && \
